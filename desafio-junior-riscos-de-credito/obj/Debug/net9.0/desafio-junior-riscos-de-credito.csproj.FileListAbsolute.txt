@@ -12,3 +12,4 @@ C:\Users\Pc Gamer\Documents\MyDocs\programa\desafio-jr-itau\desafio-junior-risco
 C:\Users\Pc Gamer\Documents\MyDocs\programa\desafio-jr-itau\desafio-junior-riscos-de-credito\obj\Debug\net9.0\desafio-junior-riscos-de-credito.pdb
 C:\Users\Pc Gamer\Documents\MyDocs\programa\desafio-jr-itau\desafio-junior-riscos-de-credito\obj\Debug\net9.0\desafio-junior-riscos-de-credito.genruntimeconfig.cache
 C:\Users\Pc Gamer\Documents\MyDocs\programa\desafio-jr-itau\desafio-junior-riscos-de-credito\obj\Debug\net9.0\ref\desafio-junior-riscos-de-credito.dll
+C:\Users\Pc Gamer\Documents\MyDocs\programa\desafio-jr-itau\desafio-junior-riscos-de-credito\obj\Debug\net9.0\desafio-junior-riscos-de-credito.sourcelink.json
