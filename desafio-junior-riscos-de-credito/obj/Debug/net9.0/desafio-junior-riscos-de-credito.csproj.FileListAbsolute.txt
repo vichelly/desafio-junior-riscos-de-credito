@@ -1,0 +1,14 @@
+C:\Users\Pc Gamer\Documents\MyDocs\programa\desafio-jr-itau\desafio-junior-riscos-de-credito\obj\Debug\net9.0\desafio-junior-riscos-de-credito.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pc Gamer\Documents\MyDocs\programa\desafio-jr-itau\desafio-junior-riscos-de-credito\obj\Debug\net9.0\desafio-junior-riscos-de-credito.AssemblyInfoInputs.cache
+C:\Users\Pc Gamer\Documents\MyDocs\programa\desafio-jr-itau\desafio-junior-riscos-de-credito\obj\Debug\net9.0\desafio-junior-riscos-de-credito.AssemblyInfo.cs
+C:\Users\Pc Gamer\Documents\MyDocs\programa\desafio-jr-itau\desafio-junior-riscos-de-credito\obj\Debug\net9.0\desafio-junior-riscos-de-credito.csproj.CoreCompileInputs.cache
+C:\Users\Pc Gamer\Documents\MyDocs\programa\desafio-jr-itau\desafio-junior-riscos-de-credito\bin\Debug\net9.0\desafio-junior-riscos-de-credito.exe
+C:\Users\Pc Gamer\Documents\MyDocs\programa\desafio-jr-itau\desafio-junior-riscos-de-credito\bin\Debug\net9.0\desafio-junior-riscos-de-credito.deps.json
+C:\Users\Pc Gamer\Documents\MyDocs\programa\desafio-jr-itau\desafio-junior-riscos-de-credito\bin\Debug\net9.0\desafio-junior-riscos-de-credito.runtimeconfig.json
+C:\Users\Pc Gamer\Documents\MyDocs\programa\desafio-jr-itau\desafio-junior-riscos-de-credito\bin\Debug\net9.0\desafio-junior-riscos-de-credito.dll
+C:\Users\Pc Gamer\Documents\MyDocs\programa\desafio-jr-itau\desafio-junior-riscos-de-credito\bin\Debug\net9.0\desafio-junior-riscos-de-credito.pdb
+C:\Users\Pc Gamer\Documents\MyDocs\programa\desafio-jr-itau\desafio-junior-riscos-de-credito\obj\Debug\net9.0\desafio-junior-riscos-de-credito.dll
+C:\Users\Pc Gamer\Documents\MyDocs\programa\desafio-jr-itau\desafio-junior-riscos-de-credito\obj\Debug\net9.0\refint\desafio-junior-riscos-de-credito.dll
+C:\Users\Pc Gamer\Documents\MyDocs\programa\desafio-jr-itau\desafio-junior-riscos-de-credito\obj\Debug\net9.0\desafio-junior-riscos-de-credito.pdb
+C:\Users\Pc Gamer\Documents\MyDocs\programa\desafio-jr-itau\desafio-junior-riscos-de-credito\obj\Debug\net9.0\desafio-junior-riscos-de-credito.genruntimeconfig.cache
+C:\Users\Pc Gamer\Documents\MyDocs\programa\desafio-jr-itau\desafio-junior-riscos-de-credito\obj\Debug\net9.0\ref\desafio-junior-riscos-de-credito.dll
