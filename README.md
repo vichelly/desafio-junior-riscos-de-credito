@@ -66,22 +66,25 @@ var entrada = new List<int> { 6, 4, 2, 3, 1, 5, 10, 7, 9, 8, 17, 15, 20, 21, 0 }
 
 ## Como Rodar os Testes Unitários
 
-### 1. Instale os pacotes de testes necessários
-
-Entre na pasta correta para rodar o projeto:
-```bash
-dotnet add package xunit
-dotnet add package xunit.runner.visualstudio
-dotnet add package Microsoft.NET.Test.Sdk
-```
-
-### 2. Rode os testes
+### 1. Rode os testes
 
 Entre na pasta correta para rodar o projeto:
 ```bash
 dotnet test
 ```
 <br/>
+
+### 2. Instale os pacotes de testes necessários ( caso haja algum erro )
+
+ Certifique-se de estar na pasta correta para rodar o projeto
+ <br/>
+ 
+```bash
+dotnet add package xunit
+dotnet add package xunit.runner.visualstudio
+dotnet add package Microsoft.NET.Test.Sdk
+``` 
+
 
 ## Complexidade do algoritmo
 
