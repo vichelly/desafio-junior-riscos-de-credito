@@ -9,6 +9,7 @@ Este projeto implementa uma funcionalidade que recebe uma lista de números natu
 - xUnit (para testes unitários)
 
 ---
+<br/>
 
 ## Como Rodar o Projeto
 
@@ -42,7 +43,7 @@ Execute o projeto
 dotnet run
 ```
 
-
+<br/>
 ## Como Rodar os Testes Unitários
 
 ### 1. Instale os pacotes de testes necessários
@@ -60,3 +61,12 @@ Entre na pasta correta para rodar o projeto:
 ```bash
 dotnet test
 ```
+<br/>
+
+## Complexidade do algoritmo
+
+Documentação feita no [Miro](https://miro.com)
+![Demonstração](./doc/Untitled.jpg)
+<br/>
+No fim o algoritmo ficou com complexidade O(m√n) <br/>
+onde “m” é o tamanho da lista recebida e “n” é o tamanho da lista de números checados em cada número da lista.
