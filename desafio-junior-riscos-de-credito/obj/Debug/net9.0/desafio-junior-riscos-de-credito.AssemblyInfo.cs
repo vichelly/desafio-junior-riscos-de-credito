@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("desafio-junior-riscos-de-credito")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+833b453040560f7965128cd267cc22f980070a06")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87b868466a0df922779f78967dd6b65a783a46c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("desafio-junior-riscos-de-credito")]
 [assembly: System.Reflection.AssemblyTitleAttribute("desafio-junior-riscos-de-credito")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
