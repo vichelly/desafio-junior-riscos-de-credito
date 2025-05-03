@@ -37,6 +37,11 @@ Entre na pasta correta para rodar o projeto:
 ```bash
 cd desafio-junior-riscos-de-credito
 ```
+deve estar:
+```bash
+desafio-junior-riscos-de-credito\desafio-junior-riscos-de-credito
+```
+
 Restaure os pacotes e compile
 
 No diretório raiz do projeto:
