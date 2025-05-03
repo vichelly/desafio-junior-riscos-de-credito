@@ -63,6 +63,7 @@ dotnet run
 var entrada = new List<int> { 6, 4, 2, 3, 1, 5, 10, 7, 9, 8, 17, 15, 20, 21, 0 };
 ```
 <br/>
+
 ## Como Rodar os Testes Unitários
 
 ### 1. Instale os pacotes de testes necessários
