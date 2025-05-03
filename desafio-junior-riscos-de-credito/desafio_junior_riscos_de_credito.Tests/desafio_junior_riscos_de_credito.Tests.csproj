@@ -18,4 +18,8 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\desafio-junior-riscos-de-credito.csproj" />
+  </ItemGroup>
+
 </Project>
