@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desafio-junior-riscos-de-credito", "desafio-junior-riscos-de-credito\desafio-junior-riscos-de-credito.csproj", "{07B4C494-3E31-FC45-B801-4EB43BEF586C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "desafio-junior-riscos-de-credito (1)", "desafio-junior-riscos-de-credito (1)", "{22AB126D-04D0-4C4A-FB35-A51CFFF28EAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desafio_junior_riscos_de_credito.Tests", "desafio-junior-riscos-de-credito\desafio_junior_riscos_de_credito.Tests\desafio_junior_riscos_de_credito.Tests.csproj", "{49F44FFF-1863-8797-C099-F3AF010EA1DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07B4C494-3E31-FC45-B801-4EB43BEF586C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B4C494-3E31-FC45-B801-4EB43BEF586C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B4C494-3E31-FC45-B801-4EB43BEF586C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B4C494-3E31-FC45-B801-4EB43BEF586C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49F44FFF-1863-8797-C099-F3AF010EA1DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49F44FFF-1863-8797-C099-F3AF010EA1DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49F44FFF-1863-8797-C099-F3AF010EA1DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49F44FFF-1863-8797-C099-F3AF010EA1DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{49F44FFF-1863-8797-C099-F3AF010EA1DC} = {22AB126D-04D0-4C4A-FB35-A51CFFF28EAD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24C357A1-85BE-44DC-A40E-FAA934956FD6}
+	EndGlobalSection
+EndGlobal

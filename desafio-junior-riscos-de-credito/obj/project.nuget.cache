@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A8GkihP8HSg=",
+  "dgSpecHash": "F1+EPn4xb90=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pc Gamer\\Documents\\MyDocs\\programa\\desafio-jr-itau\\desafio-junior-riscos-de-credito\\desafio-junior-riscos-de-credito.csproj",
+  "projectFilePath": "C:\\Users\\Pc Gamer\\Documents\\MyDocs\\programa\\desafio-itau-jr\\desafio-junior-riscos-de-credito\\desafio-junior-riscos-de-credito\\desafio-junior-riscos-de-credito.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pc Gamer\\.nuget\\packages\\microsoft.codecoverage\\17.13.0\\microsoft.codecoverage.17.13.0.nupkg.sha512",
     "C:\\Users\\Pc Gamer\\.nuget\\packages\\microsoft.net.test.sdk\\17.13.0\\microsoft.net.test.sdk.17.13.0.nupkg.sha512",
