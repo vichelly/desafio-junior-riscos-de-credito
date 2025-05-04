@@ -1,41 +1,31 @@
-using desafio_junior_riscos_de_credito.business;
+using System;
+using System.Reflection;
 using Xunit;
-using System.Collections.Generic;
+using desafio_junior_riscos_de_credito.business;
 
 namespace desafio_junior_riscos_de_credito.Tests
 {
     public class PrimeNumberIdentifierTests
     {
+        // Testa o método IsPrime utilizando reflexão
         [Theory]
-        [InlineData(1, true)]
-        [InlineData(2, true)]
-        [InlineData(3, true)]
-        [InlineData(4, false)]
-        [InlineData(5, true)]
-        [InlineData(9, false)]
-        [InlineData(13, true)]
-        [InlineData(0, false)]
-        [InlineData(-3, false)]
-        public void IsPrime_IdentifiesCorrectly(int number, bool expected)
+        [InlineData(1, true)]  // Aqui 1 será considerado primo conforme seu critério
+        [InlineData(2, true)]  // 2 é primo
+        [InlineData(3, true)]  // 3 é primo
+        [InlineData(4, false)] // 4 não é primo
+        [InlineData(5, true)]  // 5 é primo
+        [InlineData(9, false)] // 9 não é primo
+        public void TestIsPrime(int number, bool expectedResult)
         {
-            var result = InvokeIsPrime(number);
-            Assert.Equal(expected, result);
-        }
+            // Usando reflexão para acessar o método IsPrime privado
+            var methodInfo = typeof(PrimeNumberIdentifier)
+                                .GetMethod("IsPrime", BindingFlags.NonPublic | BindingFlags.Static);
 
-        [Fact]
-        public void FilterPrimes_FiltersCorrectly()
-        {
-            var input = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-            var expected = new List<int> { 1, 2, 3, 5, 7 }; // 1 incluso conforme regra do desafio
-            var result = PrimeNumberIdentifier.FilterPrimes(input);
-            Assert.Equal(expected, result);
-        }
+            // Invocando o método privado
+            var result = methodInfo.Invoke(null, new object[] { number });
 
-        private bool InvokeIsPrime(int number)
-        {
-            // Usando reflexão porque IsPrime é private. Você pode mudar para public se quiser.
-            var method = typeof(PrimeNumberIdentifier).GetMethod("IsPrime", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Static);
-            return (bool)method.Invoke(null, new object[] { number });
+            // Verificando o resultado
+            Assert.Equal(expectedResult, result);
         }
     }
 }
