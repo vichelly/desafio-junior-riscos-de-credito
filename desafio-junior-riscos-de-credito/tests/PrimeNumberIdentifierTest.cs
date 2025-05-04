@@ -1,6 +1,4 @@
-using System;
 using System.Reflection;
-using Xunit;
 using desafio_junior_riscos_de_credito.business;
 
 namespace desafio_junior_riscos_de_credito.Tests
