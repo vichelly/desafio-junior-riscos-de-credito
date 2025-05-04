@@ -1,13 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace desafio_junior_riscos_de_credito.Models
+namespace desafio_junior_riscos_de_credito.business
 {
-    public class PrimeNumber
+    public class PrimeNumberIdentifier
     {
-        public static bool PrimeCheck(int number){
+        private static bool IsPrime(int number){
             int root = (int)Math.Sqrt(number);
             List<int> divisors = Enumerable.Range(1,root).ToList();
             /* Console.WriteLine(string.Join(", ", divisors)); */
@@ -21,6 +16,14 @@ namespace desafio_junior_riscos_de_credito.Models
                 }
             }
             return true;
+        }
+
+        public static List<int> FilterPrimes(List<int> numbers)
+        {
+            return numbers
+                .Where(n => IsPrime(n))
+                .Order()
+                .ToList();
         }
     }
 }
