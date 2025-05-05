@@ -33,7 +33,7 @@ dotnet --version
 
 ### 3. Execute o projeto
 
-Entre na pasta correta para rodar o projeto:
+Entre na pasta correta do projeto para rodar o projeto:
 ```bash
 cd desafio-junior-riscos-de-credito
 ```
